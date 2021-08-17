@@ -52,13 +52,10 @@ def decontracted(phrase):
 
 
 
-page = st.sidebar.selectbox("SELECT ACTIVITY", ["INTRODUCTION","FAKE NEWS PREDICTION",])
+page = st.sidebar.selectbox("SELECT ACTIVITY", ["FAKE NEWS PREDICTION"])
 st.sidebar.text(" \n")
 
 
-if page=="INTRODUCTION":
-    st.header("FAKE NEWS PREDICTION")
-    
 
 
 if page == "FAKE NEWS PREDICTION":
